@@ -1,0 +1,32 @@
+.page-footer {
+  padding-top: 25px;
+  padding-bottom: 25px;
+
+  text-align: center;
+}
+
+.page-footer__layout {
+  display: flex;
+  flex-direction: column;
+}
+
+.page-footer__company-details {
+  margin: 0;
+
+  font-size: 15px;
+  line-height: 21px;
+}
+
+@media (min-width: $tablet-width) {
+  .page-footer__layout {
+    flex-direction: row;
+  }
+  .page-footer__company-details {
+    width: 255px;
+
+    font-size: 14px;
+    line-height: 20px;
+
+    text-align: left;
+  }
+}

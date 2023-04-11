@@ -1,0 +1,17 @@
+.logo {
+  width: 165px;
+  height: 43px;
+
+  margin: 18px auto;
+}
+
+.logo__image {
+  width: 165px;
+  height: 43px;
+}
+
+@media (min-width: $tablet-width) {
+  .logo {
+    margin: auto;
+  }
+}

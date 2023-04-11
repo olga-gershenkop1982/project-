@@ -1,0 +1,78 @@
+.phone {
+  margin: 0;
+}
+
+.phone-number {
+  display: block;
+
+  font-size: 15px;
+  line-height: 21px;
+
+  text-decoration: none;
+
+  color: blue;
+}
+
+.phone-number:hover {
+  font-weight: 400;
+  outline: none;
+
+  text-decoration-line: underline;
+  text-decoration-style: dashed;
+}
+
+.phone-number:focus {
+  outline: 2px dotted blue;
+  outline-offset: -2px;
+
+  text-decoration: none;
+}
+
+.phone-number:active {
+  color: #0088cc;
+  outline: none;
+}
+
+.phone .btn {
+  display: none;
+}
+
+.phone__note {
+  display: block;
+
+  font-size: 14px;
+  line-height: 20px;
+}
+
+@media (min-width: $tablet-width) {
+  .phone {
+    text-align: right;
+  }
+  .page-header .phone {
+    width: 181px;
+  }
+  .page-footer .phone {
+    width: 150px;
+  }
+  .phone-number {
+    font-size: 18px;
+    line-height: 25px;
+  }
+  .phone .btn {
+    display: block;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .page-footer .phone {
+    width: 200px;
+  }
+  .phone-number {
+    font-size: 24px;
+    line-height: 34px;
+  }
+  .phone__note {
+    font-size: 13px;
+    line-height: 18px;
+  }
+}

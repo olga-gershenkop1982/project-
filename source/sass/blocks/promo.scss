@@ -1,0 +1,61 @@
+.promo {
+  /*580-(189+117)=274px*/
+  min-height: 274px;
+
+  padding-top: 189px;
+  padding-bottom: 117px;
+
+  text-align: center;
+  color: #ffffff;
+
+  background-color: #2d160d;
+  background-image: url("../img/promo-bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.promo .container {
+  background-color: rgba(45, 22, 13, 0.5);
+}
+
+.promo__text {
+  margin: 0;
+
+  font-size: 17px;
+  line-height: 20px;
+}
+
+.promo .btn {
+  font-size: 20px;
+  line-height: 54px;
+
+  margin-top: 30px;
+
+  padding-left: 25px;
+  padding-right: 24px;
+}
+
+@media (min-width: $tablet-width) {
+  .promo .section-title {
+    font-size: 32px;
+  }
+  .promo__text {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .promo .btn {
+    padding-left: 65px;
+    padding-right: 64px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .promo .section-title {
+    font-size: 64px;
+  }
+  .promo__text {
+    font-size: 24px;
+    line-height: 29px;
+  }
+}

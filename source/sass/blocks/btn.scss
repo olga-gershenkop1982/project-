@@ -1,0 +1,52 @@
+.btn {
+  display: inline-block;
+  vertical-align: middle;
+
+  margin-top: 15px;
+
+  padding-top: 3px;
+  padding-bottom: 3px;
+
+  padding-left: 17px;
+  padding-right: 16px;
+
+  font-family: inherit;
+  font-weight: inherit;
+
+  font-size: 14px;
+  line-height: 17px;
+
+  text-align: center;
+  text-decoration: none;
+
+  color: #ffffff;
+  background-color: #006699;
+
+  border: none;
+  border-radius: 3px;
+
+  cursor: pointer;
+  box-shadow: -3px 3px 0 0 #34495e;
+
+  transition: 0.3s all;
+}
+
+.btn:hover {
+  background-color: lighten(#006699, 10%);
+  box-shadow: none;
+
+  transform: translateY(3px);
+}
+
+.btn:focus {
+  outline: 2px solid #ffffff;
+  outline-offset: -4px;
+}
+
+.btn:active {
+  background-color: darken(#006699, 10%);
+}
+
+.btn:disabled {
+  background-color: rgba(0, 102, 153, 0.5);
+}

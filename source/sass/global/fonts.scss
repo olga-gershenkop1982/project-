@@ -1,0 +1,39 @@
+@font-face {
+  font-weight: 300;
+  font-family: "Roboto";
+  font-style: normal;
+  src:
+    url("../fonts/RobotoLight.woff2") format("woff2"),
+    url("../fonts/RobotoLight.woff") format("woff")
+  ;
+}
+
+@font-face {
+  font-weight: 400;
+  font-family: "Roboto";
+  font-style: normal;
+  src:
+    url("../fonts/RobotoRegular.woff2") format("woff2"),
+    url("../fonts/RobotoRegular.woff") format("woff")
+  ;
+}
+
+@font-face {
+  font-weight: 700;
+  font-family: "Roboto";
+  font-style: normal;
+  src:
+    url("../fonts/RobotoBold.woff2") format("woff2"),
+    url("../fonts/RobotoBold.woff") format("woff")
+  ;
+}
+
+@font-face {
+  font-weight: 300;
+  font-family: "Cormorant Unicase";
+  font-style: normal;
+  src:
+    url("../fonts/CormorantunicaseLight.woff2") format("woff2"),
+    url("../fonts/CormorantunicaseLight.woff") format("woff")
+  ;
+}

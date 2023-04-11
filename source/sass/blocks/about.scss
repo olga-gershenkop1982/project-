@@ -1,0 +1,16 @@
+.about {
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+  text-align: center;
+}
+
+.about__description {
+  margin: 0;
+}
+
+@media (min-width: $tablet-width) {
+  .about__description {
+    text-align: left;
+  }
+}
